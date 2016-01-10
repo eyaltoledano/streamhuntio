@@ -1,17 +1,21 @@
-A sample Telescope project. Install [Meteor](http://meteor.com), clone this repository locally and then run the app with:
+Telescope is an open-source, real-time social news site built with [Meteor](http://meteor.com)
 
-```
-meteor
-```
+**Note:** Telescope is beta software. Most of it should work but it's still a little unpolished and you'll probably find some bugs. Use at your own risk :)
 
-### One-Click Deploy
+Note that Telescope is distributed under the [MIT License](http://opensource.org/licenses/MIT)
 
-Deploy on Heroku:
+### Getting Started
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+Note that while simply cloning this repository will work, it is recommended you clone the [sample project](https://github.com/TelescopeJS/sample-project/) repository instead for a simpler workflow.
 
-Note: if you get a `$ROOT_URL, if specified, must be an URL.` error on deployment, double-check that you're providing the correct URL (typically `http://your-app-name-here.herokuapp.com`).
+Please refer to [the documentation](http://telescope.readme.io/v0.20/docs/installing-telescope) for more instructions on installing Telescope.
 
-Deploy on Scalingo:
+### Learn More
 
-[![Deploy on Scalingo](https://cdn.scalingo.com/deploy/button.svg)](https://my.scalingo.com/deploy?source=https://github.com/TelescopeJS/sample-project/)
+- [Homepage](http://telescopeapp.org)
+- [Demo](http://demo2.telescopeapp.org)
+- [Sample Project](https://github.com/TelescopeJS/sample-project/)
+- [Documentation](http://telescope.readme.io)
+- [Roadmap](https://trello.com/b/oLMMqjVL/telescope-roadmap)
+- [Slack](http://slack.telescopeapp.org/)
+- [Meta](http://meta.telescopeapp.org/) – Discussions about Telescope
