@@ -50,7 +50,7 @@ Template.user_info.events({
         Messages.flash(error, "error");
         Messages.clearSeen();
       } else {
-        Messages.flash('Thanks, user has been invited.', "success");
+        Messages.flash('Thanks, this user has been invited.', "success");
         Messages.clearSeen();
       }
     });

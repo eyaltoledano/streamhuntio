@@ -3,7 +3,8 @@
     {{#if footerCode}}
       {{#markdown}}{{footerCode}}{{/markdown}}
     {{else}}
-      <a href="http://streamhunt.io" target="_blank">StreamHunt</a>
+     <!--  {{#if user.can.invite}} -->
+      You still have {{telescope.inviteCount}} invites left to distribute.
     {{/if}}
   </div>
 </template>

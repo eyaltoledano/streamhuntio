@@ -39,3 +39,4 @@ telescope:theme-hubble
 telescope:update-prompt
 
 ############ Your Custom Packages ############
+telescope-custom

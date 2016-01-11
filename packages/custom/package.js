@@ -1,7 +1,7 @@
 Package.describe({
-  summary: 'Telescope custom package – use as template for your own packages',
-  version: '0.1.0',
-  name: 'my-custom-package'
+  summary: 'Telescope custom package',
+  version: '1.0.0',
+  name: 'telescope-custom'
 });
 
 Package.onUse(function (api) {
@@ -29,12 +29,12 @@ Package.onUse(function (api) {
   // client
 
   api.addFiles([
-    'lib/client/templates/hello.html',
+    'lib/client/templates/hello.html',  
     'lib/client/templates/hello.js',
     'lib/client/templates/custom_post_title.html',
     'lib/client/templates/custom_post_title.js',
     'lib/client/stylesheets/custom.scss',
-    'lib/client/custom_templates.js'
+    'lib/client/custom_templates.js',
   ], ['client']);
 
   // server
@@ -49,4 +49,11 @@ Package.onUse(function (api) {
     'i18n/en.i18n.json'
   ], ['client', 'server']);
 
+  // Banner after 3 days
+
+  // api.use('telescope-base');
+  api.use('templating');
+
+  api.addFiles('lib/client/templates/banner.html', 'client');
+  api.addFiles('lib/client/templates/banner.js', 'client');
 });
